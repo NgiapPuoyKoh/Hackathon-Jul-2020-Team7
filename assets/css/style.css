@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif
+    
+}
+
+.nav-font{
+    font-size:2rem;
+    color: rgb(15,15,15);
+    text-align:center;
+  
+}
+.background-one{
+    width:150px;
+    background: red;
+}
+.background-two{
+    width:150px;
+    background: green;
+}
+
+.background-three{
+    width:150px;
+    background: purple;
+}
+
+.background-four{
+    width:150px;
+    background: blue;
+}
+
