@@ -1,33 +1,89 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, sans-serif
-    
+header{
+    position: relative;
+    z-index:2;
+    top:0;
+    width:100%;
 }
 
-.nav-font{
-    font-size:2rem;
-    color: rgb(15,15,15);
-    text-align:center;
+.home-btn{
+    position:absolute;
+    padding: 10px 10px;
+    background: #fafafa;
+    color:blue;
+    right: 30%;
+    left:30%;
+    top: 10px;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.quadrant{
+    text-align: center;
+    position: relative;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links{
+    display: flex; 
+    width:50%;
+    height:50vh;
+    color:#fafafa;
+}
+.nav-links:hover{
+    text-decoration: none;
+}
+
+.q-1 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(45deg,rgb(120, 30, 70) 40%, rgb(177, 66, 116),rgb(163, 100, 128),rgb(223, 202, 211)) ;
   
 }
-.background-one{
-    width:150px;
-    background: red;
-}
-.background-two{
-    width:150px;
-    background: green;
+
+.q-2 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background:  linear-gradient(45deg, rgb(33, 138, 65) 40%, rgb(90, 136, 104),rgb(130, 201, 151),rgb(156, 201, 169));
+  
 }
 
-.background-three{
-    width:150px;
-    background: purple;
+.q-3 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+background: linear-gradient(45deg, rgb(45, 21, 110) 40%, rgb(73, 50, 134),rgb(84, 65, 134),rgb(154, 136, 202));
 }
 
-.background-four{
-    width:150px;
-    background: blue;
+.q-4 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+   background:  linear-gradient( 45deg,rgb(180, 113, 25) 40%, rgb(170, 116, 45),rgb(185, 138, 76),rgb(214, 186, 150) );
 }
 
+.nav-text h2{
+    color: #fafafa;
+    text-decoration: none;
+    font-size:3rem;  
+}
+
+.nav-text p{
+    color: #fafafa;
+    text-decoration: none;
+    font-size:2rem; 
+}
