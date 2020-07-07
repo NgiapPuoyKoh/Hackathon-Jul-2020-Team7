@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
 }
-.hero-explore{
+.hero-connect{
     text-align: center;
     position: relative;
     display: flex;
@@ -28,7 +28,7 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  background: linear-gradient(45deg, rgba(154, 136, 202) 5%, rgba(84, 65, 134) 44%, rgba(45, 21, 110) 87%);
+ background: linear-gradient(45deg, rgba(214, 186, 150) 5%, rgba(185, 138, 76) 44%,rgba(180, 113, 25))  87%;
   
 }
 
@@ -55,25 +55,17 @@
     margin-left:5%;
     margin-top: 25px;
 }
-.explore-h3{
+.connect-h3{
     text-transform: uppercase;
     text-align: center;
     margin-top: 10px;
 }
 
-.explore-h3-2{
+.connect-h3-2{
     text-align: center;
     margin-top: 10px;
     display: none;
-}
 
-.explore-h4{
-
-    display: none;
-    margin-top: 10px;
-    background-color: rgb(154, 136, 202);
-    padding: 10px;
-    text-transform: uppercase;
 }
 
 img.card-img-top{
@@ -87,14 +79,14 @@ img.card-img-top{
        text-align: center;
        font-weight: bold;
        width: 100%;
-       background-color: rgb(154, 136, 202);
+       background-color: rgb(185, 138, 76);
 
        
    }
 
    .card-footer .btn:hover{
 
-       background-color: rgb(45, 21, 110);
+       background-color:rgb(180, 113, 25) ;
        color: #fff;
    }
 
@@ -116,7 +108,7 @@ img.card-img-top{
 font-size: 20px;
 }
 
-.explore-h3-2{
+.connect-h3-2{
     
     text-align: center;
     text-transform: uppercase;
@@ -124,13 +116,13 @@ font-size: 20px;
     padding: 5px;
 }
 
-.explore-h3{
+.connect-h3{
 
     display: none;
 
 }
 
-.explore-h4{
+.connect-h4{
     margin: 20px;
     text-align: center;
     display: block;
