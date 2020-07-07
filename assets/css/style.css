@@ -87,3 +87,13 @@ background: linear-gradient(45deg, rgb(45, 21, 110) 40%, rgb(73, 50, 134),rgb(84
     text-decoration: none;
     font-size:2rem; 
 }
+
+.howTo-image {
+    position: relative;
+    display: inline-block;
+}
+
+.howTo-image img {
+    display: block;
+    width: 100%;
+}
