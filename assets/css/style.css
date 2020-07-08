@@ -89,8 +89,8 @@ rgb(53, 8, 27), rgb(49, 6, 25)
   background-size: 300% 300%;
 }
 
-.q-1:hover{
-     animation: gradient 10s ease infinite;
+.quadrant:hover{
+     animation: gradient 5s ease infinite;
      
 }
 
@@ -130,10 +130,7 @@ rgb(53, 8, 27), rgb(49, 6, 25)
   background-size: 300% 300%;
 }
 
-.q-2:hover{
-     animation: gradient 10s ease infinite;
-     
-}
+
 
 .q-3 {
   width: 100%;
@@ -150,10 +147,7 @@ rgb(53, 8, 27), rgb(49, 6, 25)
   background-size: 300% 300%;
 }
 
-.q-3:hover{
-     animation: gradient 10s ease infinite;
-     
-}
+
 
 
 .q-4 {
@@ -172,10 +166,6 @@ rgb(53, 8, 27), rgb(49, 6, 25)
   background-size: 300% 300%;
 }
 
-.q-4:hover{
-     animation: gradient 10s ease infinite;
-     
-}
 
 
 .nav-text h2 {
