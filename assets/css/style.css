@@ -382,7 +382,7 @@ height:100%;
 
 
 .learn:hover, .explore:hover, .family:hover{
-     animation: footer 10s ease infinite;
+     animation: footer 5s ease infinite;
      
 }
 
