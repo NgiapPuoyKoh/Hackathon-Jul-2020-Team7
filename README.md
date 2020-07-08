@@ -11,6 +11,22 @@ Let's Explore - A way of seeing the world from the comfort of your own home
 Family - A series of videos teaching users how to use software and websites designed to keep users connected such as social media
  
 ## UX
+
+
+
+### User Stories
+
+- As a user, I want to continue to talk to my friends and family while staying safe and social distancing
+- As a user, I want to learn new things while I am cocooning
+- As a user, I want to see beautiful parts of the world from my home
+- As a user, I want to stay active in interesting and new ways
+
+The Let's Go Website achieves this by
+
+- Providing users with informative videos of how to use the best communication tools out there such as Zoom and whatsapp. It also teaches users how to set up and use their social media, all of which helps users remain connected.
+- Providing handy links to guides on cooking various meals. There is enough variety that there is going to be something the user hasn't tried.
+- Allowing the user to see the world through other peoples eyes, showing video and interactive footage of museums and the great outdoors.
+- Showing users through videos, new and interesting ways to stay fit. These videos show step by step what the user can do or will do the workout with them.
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
