@@ -9,7 +9,11 @@ Let's Move - Provides embedded workout videos to help get users moving
 Let's Learn - A way of learning a new skill to keep users thinking at home
 Let's Explore - A way of seeing the world from the comfort of your own home
 Family - A series of videos teaching users how to use software and websites designed to keep users connected such as social media
- 
+
+## Deployment
+
+Let's Go has been deployed to github pages and is accessible [here](https://ngiappuoykoh.github.io/Hackathon-Jul-2020-Team7/)
+
 ## UX
 
 ### User Stories
@@ -36,8 +40,9 @@ Bright contrasting colours are used to show different sections of the screen so 
 
 Let's go has been designed to be used on any screen size, with a particular focus on tablets as this is what we assume the main user base will access the site from.
 
+The process of designing the website began with team members providing wireframes of their thoughts for the site. The best features of the wireframes were voting on and used for the website. Wireframes are available to view [here](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/tree/master/wireframes). An example is shown:
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/wireframes/homepage.png?raw=true) ![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/wireframes/Team7MockUp.png?raw=true "Wireframe") 
 
 ## Features
 
@@ -87,10 +92,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-Let's Go has been deployed to github pages and is accessible [here](https://ngiappuoykoh.github.io/Hackathon-Jul-2020-Team7/)
 
 ## Credits
 
