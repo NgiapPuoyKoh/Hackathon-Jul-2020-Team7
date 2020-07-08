@@ -1,4 +1,4 @@
-![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/assets/images/Small%20Logo.png?raw=true "Let's Go")
+![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/assets/images/Small%20Logo.png?raw=true "Let's Go Logo")
 
 # Let's Go
 
@@ -27,6 +27,10 @@ The Let's Go Website achieves this by
 - Providing handy links to guides on cooking various meals. There is enough variety that there is going to be something the user hasn't tried.
 - Allowing the user to see the world through other peoples eyes, showing video and interactive footage of museums and the great outdoors.
 - Showing users through videos, new and interesting ways to stay fit. These videos show step by step what the user can do or will do the workout with them.
+
+### User Experience
+
+![alt text]( "Website on Am I Responsive")
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
