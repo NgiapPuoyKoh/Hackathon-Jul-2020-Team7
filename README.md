@@ -1,8 +1,14 @@
-# Your Project's Name
+![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/assets/images/Small%20Logo.png?raw=true "Let's Go")
 
-One or two paragraphs providing an overview of your project.
+# Let's Go
 
-Essentially, this part is your sales pitch.
+This is a website designed to help older and more vulnerable people stay connected and thrive during the new normal. It allows those who are less technologically minded to take advantage of internet.
+
+It is broken down into 4 pages:
+Let's Move - Provides embedded workout videos to help get users moving
+Let's Learn - A way of learning a new skill to keep users thinking at home
+Let's Explore - A way of seeing the world from the comfort of your own home
+Family - A series of videos teaching users how to use software and websites designed to keep users connected such as social media
  
 ## UX
  
@@ -29,6 +35,17 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
+
+### Languages and Frameworks
+
+-   HTML
+-   CSS
+-   Bootstrap
+
+### Tools Used
+
+-   Balsamiq: Used to create wireframes
+-   Gitpod: IDE used for creating and editing code
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
