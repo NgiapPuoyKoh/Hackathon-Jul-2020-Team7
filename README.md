@@ -12,8 +12,6 @@ Family - A series of videos teaching users how to use software and websites desi
  
 ## UX
 
-
-
 ### User Stories
 
 - As a user, I want to continue to talk to my friends and family while staying safe and social distancing
@@ -30,12 +28,14 @@ The Let's Go Website achieves this by
 
 ### User Experience
 
-![alt text]( "Website on Am I Responsive")
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/assets/images/LetsGo%20AmIResponsive.png?raw=true "Website on Am I Responsive")
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The site is built for ease of use for those that are less technologically minded such as the elderly.
+
+Bright contrasting colours are used to show different sections of the screen so that it is clear which section you are heading for.
+
+Let's go has been designed to be used on any screen size, with a particular focus on tablets as this is what we assume the main user base will access the site from.
+
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
@@ -64,14 +64,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Tools Used
 
--   Balsamiq: Used to create wireframes
--   Gitpod: IDE used for creating and editing code
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [Balsamiq](https://balsamiq.com/): Used to create wireframes
+- [Gitpod](https://www.gitpod.io/): IDE used for creating and editing code
+- [Am I Responsive](http://ami.responsivedesign.is/#): Used for site testing at various screen sizes
 
 ## Testing
 
@@ -95,15 +90,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+Let's Go has been deployed to github pages and is accessible [here](https://ngiappuoykoh.github.io/Hackathon-Jul-2020-Team7/)
 
 ## Credits
 
