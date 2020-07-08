@@ -12,6 +12,18 @@ header {
   justify-content: center;
 }
 
+.logo-lp{
+    width:20%;
+    height:50%;
+    
+}
+
+.logo-lp img{
+    width:auto;
+    height:100%;
+    margin-left: 15px;
+}
+
 .header-text {
   width: 80%;
   text-align: left;
@@ -48,6 +60,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .nav-links {
@@ -55,6 +68,7 @@ header {
   width: 50%;
   height: 40vh;
   color: #fafafa;
+  
 }
 .nav-links:hover {
   text-decoration: none;
@@ -69,10 +83,36 @@ header {
     45deg,
     rgb(120, 30, 70) 40%,
     rgb(177, 66, 116),
-    rgb(163, 100, 128),
-    rgb(223, 202, 211)
+rgb(53, 8, 27), rgb(49, 6, 25)
   );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
 }
+
+.q-1:hover{
+     animation: gradient 10s ease infinite;
+     
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+    25%{
+        background-position: 50% 50%;
+    }
+	50% {
+		background-position: 100% 50%;
+	}
+
+    75%{
+        background-position: 50% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 .q-2 {
   width: 100%;
@@ -82,10 +122,17 @@ header {
   background: linear-gradient(
     45deg,
     rgb(33, 138, 65) 40%,
-    rgb(90, 136, 104),
-    rgb(130, 201, 151),
-    rgb(156, 201, 169)
+    rgb(12, 90, 35),
+    rgb(5, 48, 18),
+     rgb(12, 73, 30)
   );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
+}
+
+.q-2:hover{
+     animation: gradient 10s ease infinite;
+     
 }
 
 .q-3 {
@@ -95,12 +142,19 @@ header {
   margin: 0;
   background: linear-gradient(
     45deg,
-    rgb(45, 21, 110) 40%,
-    rgb(73, 50, 134),
-    rgb(84, 65, 134),
-    rgb(154, 136, 202)
+    rgb(117, 73, 240) 40%,
+  rgb(44, 15, 117),
+    rgb(12, 3, 39)
   );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
 }
+
+.q-3:hover{
+     animation: gradient 10s ease infinite;
+     
+}
+
 
 .q-4 {
   width: 100%;
@@ -110,11 +164,19 @@ header {
   background: linear-gradient(
     45deg,
     rgb(180, 113, 25) 40%,
-    rgb(170, 116, 45),
-    rgb(185, 138, 76),
-    rgb(214, 186, 150)
+    rgb(141, 86, 14)50%,
+    rgb(95, 57, 8),
+    rgb(51, 30, 3)
   );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
 }
+
+.q-4:hover{
+     animation: gradient 10s ease infinite;
+     
+}
+
 
 .nav-text h2 {
   color: #fafafa;
@@ -140,6 +202,51 @@ header {
     .header-text p {
         font-size: 1rem;
     }
+}
+
+@media screen and (max-width:768px){
+    .q-1, .q-2, .q-3, .q-4{
+    
+        animation: gradient 10s ease forwards;
+
+    }
+
+    .q-1{
+        animation-delay: 0s;
+    }
+
+    .q-2{
+         animation-delay: 5s;
+    }
+
+    .q-3{
+         animation-delay: 10s;
+    }
+
+    .q-4{
+         animation-delay: 15s;
+    }
+
+    @keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+    25%{
+        background-position: 50% 50%;
+    }
+	50% {
+		background-position: 100% 50%;
+	}
+
+    75%{
+        background-position: 50% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 }
 
 @media screen and (max-width:660px){
