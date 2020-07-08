@@ -74,12 +74,10 @@ The User stories were tested by getting each individual memeber of the team to l
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+- The majority of the video media used on this site was from [Youtube](https://www.youtube.com/)
+- Pictures were obtained through the use of google images from various sources
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- As a team we would like to acknowledge our judge Kevin for his advice and guidance throughtout this process.
