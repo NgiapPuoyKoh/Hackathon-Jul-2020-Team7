@@ -48,6 +48,7 @@
 
 .card-deck{
     margin-top: 25px;
+    
 }
 
 .hr-rule{
@@ -136,6 +137,12 @@ font-size: 20px;
     display: block;
 }
 
+.card-deck{
+    display: flex;
+    flex-direction: column ;
+    
+}
+
 .card{
     
     position: relative;
@@ -145,5 +152,44 @@ font-size: 20px;
     
 }
 
+img.card-img-top{
 
+    width: 50%;
+
+}
+
+.card-footer{
+
+    width: 40%;
+}
+
+
+   }
+
+   @media only screen and (max-width: 600px){
+
+   .card-deck{
+    display: flex;
+    flex-direction: column ;
+    
+}
+
+.card{
+    
+    
+    width: 100%;
+    padding: 20px;
+
+}
+
+img.card-img-top{
+
+    width: 100%;
+
+}
+
+.card-footer{
+
+    width: 100%;
+}
    }
