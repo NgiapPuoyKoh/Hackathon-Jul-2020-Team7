@@ -45,19 +45,12 @@ The process of designing the website began with team members providing wireframe
 ![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/wireframes/homepage.png?raw=true) ![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/wireframes/Team7MockUp.png?raw=true "Wireframe") 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
+- Workout videos - Allowing users to follow along with workouts by selecting Let's Move and clicking on a video of choice.
+- Cooking videos - Users can select Let's Learn, view a selection of recipes then click on the button below the recipe to launch an middle of the screen video.
+- Interactive tours - Users can choose Let's Explore to find a list of interative tours. Selecting a tour requires a click of a button below the chosen tour to be taken to a new page and the site selected.
+- Connection instuction - The Family page provides user access to videos that will help them set up software used to keep them connected with the world. Users can select Family, then click a button below the software they wish to use to stay connected.
 
 ## Technologies Used
 
