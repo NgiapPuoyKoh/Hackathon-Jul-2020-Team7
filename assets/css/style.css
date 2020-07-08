@@ -197,7 +197,7 @@ rgb(53, 8, 27), rgb(49, 6, 25)
 @media screen and (max-width:768px){
     .q-1, .q-2, .q-3, .q-4{
     
-        animation: gradient 10s ease forwards;
+        animation: gradient 5s ease forwards;
 
     }
 
@@ -206,15 +206,15 @@ rgb(53, 8, 27), rgb(49, 6, 25)
     }
 
     .q-2{
-         animation-delay: 5s;
+         animation-delay: 3s;
     }
 
     .q-3{
-         animation-delay: 10s;
+         animation-delay: 8s;
     }
 
     .q-4{
-         animation-delay: 15s;
+         animation-delay: 13s;
     }
 
     @keyframes gradient {
