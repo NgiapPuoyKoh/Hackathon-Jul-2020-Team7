@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla&display=swap');
+body {
+  font-family: Verdana, sans-serif;
+}
+
 .nav-container {
   width: 100%;
   height: 100%;
@@ -40,12 +45,14 @@
   color: #fafafa;
   text-decoration: none;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 .nav-text p {
   color: #fafafa;
   text-decoration: none;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .card-deck {
@@ -92,6 +99,7 @@ img.card-img-top {
   font-weight: bold;
   width: 100%;
   background-color: rgb(185, 138, 76);
+  border: none;
 }
 
 .card-footer .btn:hover {
@@ -204,46 +212,109 @@ footer {
   100% {
     background-position: 0% 50%;
   }
+
+  
+  
 }
 
-@media only screen and (max-width: 1024px) {
-  .nav-container {
+ @media only screen and (max-width: 1024px){
+
+.nav-container{
+
     display: block;
-  }
 
-  .nav-links {
+}
+
+.nav-links{
+
     height: 25vh;
-  }
+}
 
-  .nav-text p {
-    font-size: 20px;
-  }
+.nav-text p{
 
-  .connect-h3-2 {
+font-size: 20px;
+}
+
+.connect-h3-2{
+    
     text-align: center;
     text-transform: uppercase;
     display: block;
     padding: 5px;
-  }
+}
 
-  .connect-h3 {
+.connect-h3{
+
     display: none;
-  }
 
-  .connect-h4 {
+}
+
+.connect-h4{
     margin: 20px;
     text-align: center;
     display: block;
-  }
+}
 
-  .card {
+.card-deck{
+    display: flex;
+    flex-direction: column ;
+    
+}
+
+.card{
+    
     position: relative;
     width: 100%;
     padding: 20px;
-  }
+    align-items: center;
+    
+    
 }
 
-@media screen and (max-width: 488pxpx) {
+img.card-img-top{
+
+    width: 50%;
+
+}
+
+.card-footer{
+
+    width: 40%;
+}
+
+
+
+
+   @media only screen and (max-width: 600px){
+
+   .card-deck{
+    display: flex;
+    flex-direction: column ;
+    
+}
+
+.card{
+    
+    
+    width: 100%;
+    padding: 20px;
+
+}
+
+img.card-img-top{
+
+    width: 100%;
+
+}
+
+.card-footer{
+
+    width: 100%;
+}
+   }
+
+ 
+@media screen and (max-width: 488px) {
   footer {
     flex-wrap: wrap;
   }
@@ -255,3 +326,4 @@ footer {
     width: 50%;
   }
 }
+
