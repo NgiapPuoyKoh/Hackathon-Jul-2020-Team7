@@ -4,23 +4,22 @@
   display: flex;
   flex-wrap: wrap;
 }
-.hero-connect{
-    text-align: center;
-    position: relative;
-    display: flex;
+.hero-connect {
+  text-align: center;
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-.nav-links{
-    display: flex; 
-    width:100%;
-    height:50vh;
-    color:#fafafa;
+.nav-links {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  color: #fafafa;
 }
-.nav-links:hover{
-    text-decoration: none;
+.nav-links:hover {
+  text-decoration: none;
 }
 
 .main {
@@ -28,54 +27,54 @@
   height: 100%;
   padding: 0;
   margin: 0;
- background: linear-gradient(45deg, rgba(214, 186, 150) 5%, rgba(185, 138, 76) 44%,rgba(180, 113, 25))  87%;
-  
+  background: linear-gradient(
+      45deg,
+      rgba(214, 186, 150) 5%,
+      rgba(185, 138, 76) 44%,
+      rgba(180, 113, 25)
+    )
+    87%;
 }
 
-.nav-text h2{
-    color: #fafafa;
-    text-decoration: none;
-    font-size:3rem;  
+.nav-text h2 {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 3rem;
 }
 
-
-
-.nav-text p{
-    color: #fafafa;
-    text-decoration: none;
-    font-size:2rem; 
+.nav-text p {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
-.card-deck{
-    margin: 0;
+.card-deck {
+  margin: 0;
 }
 
-.hr-rule{
-    width: 90%;
-    margin-left:5%;
-    margin-top: 25px;
+.hr-rule {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 25px;
 }
-.connect-h3{
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.connect-h3-2{
-    text-align: center;
-    margin-top: 10px;
-    display: none;
-
+.connect-h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
 }
 
-img.card-img-top{
-    max-height: 150px;
-    min-height: 110px;
-   
+.connect-h3-2 {
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+}
 
-   }
+img.card-img-top {
+  max-height: 150px;
+  min-height: 110px;
+}
 
-   .videoWrapper {
+.videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
@@ -88,23 +87,18 @@ img.card-img-top{
   height: 100%;
 }
 
-   .card-footer .btn{
-       text-align: center;
-       font-weight: bold;
-       width: 100%;
-       background-color: rgb(185, 138, 76);
+.card-footer .btn {
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  background-color: rgb(185, 138, 76);
+}
 
-       
-   }
+.card-footer .btn:hover {
+  background-color: rgb(180, 113, 25);
+  color: #fff;
+}
 
-   .card-footer .btn:hover{
-
-       background-color:rgb(180, 113, 25) ;
-       color: #fff;
-   }
-
-
-   
 footer {
   margin-top: 50px;
   display: flex;
@@ -188,7 +182,8 @@ footer {
 
 .learn:hover,
 .explore:hover,
-.family:hover, .move:hover {
+.family:hover,
+.move:hover {
   animation: footer 5s ease infinite;
 }
 
@@ -211,53 +206,52 @@ footer {
   }
 }
 
-
-   @media only screen and (max-width: 1024px){
-
-.nav-container{
-
+@media only screen and (max-width: 1024px) {
+  .nav-container {
     display: block;
+  }
 
-}
-
-.nav-links{
-
+  .nav-links {
     height: 25vh;
-}
+  }
 
-.nav-text p{
+  .nav-text p {
+    font-size: 20px;
+  }
 
-font-size: 20px;
-}
-
-.connect-h3-2{
-    
+  .connect-h3-2 {
     text-align: center;
     text-transform: uppercase;
     display: block;
     padding: 5px;
-}
+  }
 
-.connect-h3{
-
+  .connect-h3 {
     display: none;
+  }
 
-}
-
-.connect-h4{
+  .connect-h4 {
     margin: 20px;
     text-align: center;
     display: block;
-}
+  }
 
-.card{
-    
+  .card {
     position: relative;
     width: 100%;
     padding: 20px;
-    
-    
+  }
 }
 
+@media screen and (max-width: 428px) {
+  footer {
+    flex-wrap: wrap;
+  }
+  .logo-container {
+    max-width: 50%;
+  }
 
-   }
+  .text-container {
+    width: 50%;
+  }
+}

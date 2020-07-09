@@ -197,3 +197,18 @@ footer {
     background-position: 0% 50%;
   }
 }
+
+
+
+@media screen and (max-width: 428px) {
+  footer {
+    flex-wrap: wrap;
+  }
+  .logo-container {
+    max-width: 50%;
+  }
+
+  .text-container {
+    width: 50%;
+  }
+}
