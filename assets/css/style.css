@@ -401,7 +401,7 @@ height:100%;
 
 
 
-@media screen and (max-width: 488pxpx) {
+@media screen and (max-width: 488px) {
   footer {
     flex-wrap: wrap;
   }
