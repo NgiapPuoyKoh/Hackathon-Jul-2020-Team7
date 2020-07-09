@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla&display=swap');
 body {
   font-family: Verdana, sans-serif;
 }
@@ -172,12 +173,14 @@ rgb(53, 8, 27), rgb(49, 6, 25)
   color: #fafafa;
   text-decoration: none;
   font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .nav-text p {
   color: #fafafa;
   text-decoration: none;
   font-size: 2rem;
+  font-family: 'Karla', sans-serif;
 }
 
 
@@ -264,6 +267,7 @@ rgb(53, 8, 27), rgb(49, 6, 25)
         font-size: 0.75rem;
     }
 }
+
 
 /*--Let's Move section--*/
 
